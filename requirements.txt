@@ -7,3 +7,4 @@ flask_swagger_ui
 ultralytics
 firebase-admin
 gunicorn
+rsa==4.6
