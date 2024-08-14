@@ -48,7 +48,7 @@ bcrypt = Bcrypt(api)
 db.init_app(api)
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate('./food-rec-6b763-firebase-adminsdk-r43c4-0be7de58d1.json')
+cred = credentials.Certificate(os.environ.get('FIREBASE_KEY_PATH'))
 firebase_admin.initialize_app(cred, {
     'storageBucket': 'food-rec-6b763.appspot.com'  # Thay bằng tên bucket của bạn
 })
