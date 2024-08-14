@@ -5,5 +5,5 @@ Flask-SQLAlchemy
 flask-cors
 flask_swagger_ui
 ultralytics
-firebase_admin
+firebase-admin
 gunicorn
